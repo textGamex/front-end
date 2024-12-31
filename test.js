@@ -9,6 +9,7 @@ var list = {
 var newList = {
     type: 1
 };
+
 var method = list['type'];
 list._context = newList.type;
 console.log(list)
